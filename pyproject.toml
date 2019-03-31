@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "credmon"
+version = "0.1.0"
+description = "Utility for checking credentials."
+authors = ["Alexandr Dzhurinskij <adzhurinskij@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/adzhurinskij/credmon"
+
+[tool.poetry.dependencies]
+python = "~2.7 || ^3.4"
+requests = "^2.21"
+click = "^7.0"
+pyyaml = "^5.1"
+
+[tool.poetry.dev-dependencies]
+poetry-setup = "^0.3.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
